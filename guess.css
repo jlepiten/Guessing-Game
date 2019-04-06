@@ -1,0 +1,45 @@
+body{
+  font-family: arial, helvetica;
+  background-color: #808000;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+p{
+  padding: 10px;
+  text-align: center;
+}
+
+#guess {
+  border-radius: 5px;
+  border: 0;
+  width: 80px;
+  height:25px;
+  background-color: #8B4513;
+  color: white;
+}
+
+.container {
+  position: fixed;
+  max-width: 600px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  color: #000000;
+}
+
+#num {
+   height: auto;
+   box-sizing: border-box;
+   padding: 10px;
+   font-size: 16px;
+}
+
+.form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
